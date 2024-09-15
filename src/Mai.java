@@ -33,7 +33,6 @@ class Main {
         // Устанавливаем размер и отображаем окно
         frame.setSize(600, 600);
         frame.setLocation(500,130);
-        frame.setBackground(Color.black);
         frame.setVisible(true);
     }
 }
