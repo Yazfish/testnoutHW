@@ -2,10 +2,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 class Main {
-    public static void main(String[] args) {
+    public static <Player> void main(String[] args) {
         // создание окна
         JFrame frame = new JFrame("КРАКОЗЯБРА");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -34,8 +36,8 @@ class Main {
         frame.setSize(600, 600);
         frame.setLocation(500,130);
         frame.setVisible(true);
-    }
-}
 
 
-
+            }
+        }
+        
